@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+}
+
+
+.col-sm-3.side-bar {
+
+	background-color: blue;
+	flex:2;
+    display: flex;
+}
+	
+
+h1 {
+    color: navy;
+    margin-left: 0px;
+}

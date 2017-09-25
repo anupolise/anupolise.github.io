@@ -2482,6 +2482,15 @@
 
 			}
 
+/*section headers*/
+#centerCTA
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+
 /* Spotlight */
 
 	.spotlight {
@@ -3582,7 +3591,7 @@
 			order: 1;
 			padding-right: 3em;
 			display: center;
-			width: 70%;
+			width: 100%;
 		}
 
 			#cta .inner header p {
@@ -3594,7 +3603,7 @@
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			width: 30%;
+			width: 0%;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -3610,8 +3619,8 @@
 				}
 
 				#cta .inner .actions {
-					margin-left: auto;
-					margin-right: auto;
+					/*margin-left: auto;
+					margin-right: auto;*/
 					max-width: 20em;
 					width: 100%;
 				}

@@ -2487,7 +2487,22 @@
 {
 	margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+#headerImg
+{
+	display:block;
+    margin:auto;
+    margin-bottom:30px;
+	
+}
+
+
+#leftie
+{
+	text-align:center;
 }
 
 
@@ -2650,8 +2665,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #184a7f;
-			color: #c7ebe8;
+			background-color: #143252;
+			color: #eaf3fa;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2683,7 +2698,7 @@
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c7ebe8;
+				color: #eaf3fa;
 			}
 
 			.wrapper.style1 label {

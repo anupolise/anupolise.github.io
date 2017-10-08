@@ -2505,6 +2505,20 @@
 	text-align:center;
 }
 
+#paddingpls
+{
+	padding:10px;
+}
+
+ .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+
 
 /* Spotlight */
 

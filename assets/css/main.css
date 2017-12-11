@@ -1847,6 +1847,11 @@
 		opacity: 1.0;
 	}
 
+	.space{
+		padding-left:2%;
+		padding-right:2%;
+	}
+
 /* Box */
 
 	.box {
@@ -1976,6 +1981,10 @@
 			.image.fit img {
 				width: 100%;
 			}
+	#resize{
+		width:50%;
+		height:50%;
+	}
 
 /* List */
 
@@ -2553,7 +2562,7 @@
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
+			max-width: 60em;
 			width: 60%;
 		}
 
@@ -2607,11 +2616,11 @@
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
-				width: 45%;
+				width: 35%;
 			}
 
 			.spotlight .content {
-				width: 55%;
+				width: 65%;
 			}
 
 		}

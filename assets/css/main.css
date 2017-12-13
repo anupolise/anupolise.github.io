@@ -9,14 +9,66 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, p, h1, h2, h3, h4, h5, h6, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		
 	}
+
+	
+	.smallP{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-size: 14px
+	}
+
+	.pHeader{
+		margin: 0;
+		padding-bottom: 10px;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		font-weight:900;
+		/*vertical-align: baseline;*/
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		font-size:25px;
+	}
+
+	.p2Header{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		/*vertical-align: baseline;*/
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		font-size:20px;
+		color:white;
+	}
+
+	.p3Header{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		/*vertical-align: baseline;*/
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		font-size:17px;
+		color:white;
+	}
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -2385,6 +2437,7 @@
 		list-style: none;
 		padding: 0;
 		width: 100%;
+
 	}
 
 		.features li {
@@ -2393,6 +2446,8 @@
 			position: relative;
 			text-align: left;
 			width: 50%;
+			height:22em;
+
 		}
 
 			.features li:nth-child(1) {
@@ -2540,6 +2595,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		height: 25em;
 	}
 
 		.spotlight .image {
@@ -2553,7 +2609,9 @@
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 80%;
+				display: block;
+				margin: auto;
 			}
 
 		.spotlight .content {
@@ -2567,10 +2625,10 @@
 		}
 
 		.spotlight:nth-child(2n) {
-			-moz-flex-direction: row-reverse;
+			/*-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
+			flex-direction: row-reverse;*/
 		}
 
 		.spotlight:nth-child(1) {
@@ -2616,11 +2674,11 @@
 		@media screen and (max-width: 1280px) {
 
 			.spotlight .image {
-				width: 35%;
+				width: 30%;
 			}
 
 			.spotlight .content {
-				width: 65%;
+				width: 70%;
 			}
 
 		}
@@ -2846,7 +2904,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #183617;
 			color: #d3d4e4;
 		}
 
